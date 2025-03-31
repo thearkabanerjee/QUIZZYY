@@ -1,5 +1,7 @@
 # Quiz App
 
+![Bevs for Devs Banner](public/demo.png)
+
 A modern quiz application built with React, TypeScript, and Chakra UI.
 
 ## Features
@@ -20,7 +22,7 @@ A modern quiz application built with React, TypeScript, and Chakra UI.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/quiz-app.git
+git clone https://github.com/thearkabanerjee/quiz-app.git
 cd quiz-app
 ```
 
@@ -48,14 +50,36 @@ The built files will be in the `dist` directory.
 
 ## Deployment
 
-This project is configured for deployment to GitHub Pages. To deploy:
+### Option 1: Deploy to Vercel (Recommended)
+
+1. Install Vercel CLI (optional):
+```bash
+npm install -g vercel
+```
+
+2. Deploy using Vercel CLI:
+```bash
+vercel
+```
+
+Or deploy directly from the Vercel dashboard:
+1. Push your code to GitHub
+2. Go to [Vercel](https://vercel.com)
+3. Import your repository
+4. Vercel will automatically detect the project settings and deploy
+
+Your app will be available at `https://quiz-app-[your-username].vercel.app`
+
+### Option 2: Deploy to GitHub Pages
+
+This project is also configured for deployment to GitHub Pages. To deploy:
 
 1. Push your code to the `main` branch of your GitHub repository
 2. Go to your repository's Settings > Pages
 3. Under "Source", select "GitHub Actions"
 4. The deployment will automatically start when you push to the main branch
 
-The app will be available at `https://yourusername.github.io/quiz-app`
+The app will be available at `https://thearkabanerjee.github.io/quiz-app`
 
 ## Development
 
