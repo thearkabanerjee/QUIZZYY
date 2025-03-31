@@ -68,7 +68,7 @@ Or deploy directly from the Vercel dashboard:
 3. Import your repository
 4. Vercel will automatically detect the project settings and deploy
 
-Your app will be available at `https://quiz-app-[your-username].vercel.app`
+Your app will be available at `https://quiz-app-.vercel.app`
 
 ### Option 2: Deploy to GitHub Pages
 
